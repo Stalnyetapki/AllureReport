@@ -1,1 +1,1 @@
-[]
+[{"uid":"e9ad4ed781211388","name":"checkIssuesTabInRepoByWebStepsTest()","time":{"start":1671052711351,"stop":1671052720126,"duration":8775},"status":"passed","severity":"normal"},{"uid":"59b2cc61557896a7","name":"checkIssuesTabInRepoTest()","time":{"start":1671052720317,"stop":1671052724153,"duration":3836},"status":"passed","severity":"normal"},{"uid":"3c1fe2695faa5357","name":"Проверка наличия задач в выбранном репозитории","time":{"start":1671052724167,"stop":1671052727555,"duration":3388},"status":"passed","severity":"normal"}]

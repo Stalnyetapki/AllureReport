@@ -1,1 +1,1 @@
-{"total":0,"items":[]}
+{"total":3,"items":[{"uid":"d5ef4caf57c0c1d3e0f7e3f6ff909ba1","name":"com.github.tests.GithubIssuesWebStepsTests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}},{"uid":"bcc398254744157f005e813be51872d4","name":"com.github.tests.GithubIssuesTests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}},{"uid":"64da5be6503ebcad4674df729e4e4cc5","name":"com.github.tests.GithubIssuesLambdaTests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
