@@ -14,4 +14,6 @@ public class TestBase {
         Configuration.baseUrl = "https://github.com/";
         Configuration.browserSize = "1920x1080";
     }
+
+    
 }

@@ -1,11 +1,7 @@
 package com.github.tests;
 
-import com.codeborne.selenide.logevents.SelenideLogger;
-import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Test;
 import pages.GithubIssuesWebSteps;
-
-import static io.qameta.allure.Allure.step;
 
 public class GithubIssuesWebStepsTests {
 
@@ -16,7 +12,6 @@ public class GithubIssuesWebStepsTests {
 
     @Test
     void checkIssuesTabInRepoByWebStepsTest() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
         githubIssuesWebSteps.openMainPage()
                 .searchAndOpenRepository(REPOSITORY)
                 .openIssuesTab()
