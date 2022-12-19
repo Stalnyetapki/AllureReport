@@ -11,7 +11,7 @@ public class GithubIssuesWebSteps {
 
     @Step("Открываем главную страницу")
     public GithubIssuesWebSteps openMainPage() {
-        open("https://github.com/");
+        open("");
 
         return this;
     }
