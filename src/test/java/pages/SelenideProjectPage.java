@@ -25,13 +25,20 @@ public class SelenideProjectPage {
 
     @Step("Check that 'Soft assertions' page exists in Wiki Tab")
     public SelenideProjectPage shouldBeSoftAssertionsPageInWikiTab() {
-        $$(".internal").shouldHave(itemWithText("Soft assertions"));
+        $$("#wiki-pages-box .Box-row").shouldHave(itemWithText("SoftAssertions"));
+        return this;
+    }
+
+    @Step("Check that 'Soft assertions' page exists in Wiki Tab")
+    public SelenideProjectPage clickOnShowMorePageButton() {
+        $(".Box-row button").click();
+
         return this;
     }
 
     @Step("Open '{pageName}' page in Wiki list")
     public SelenideProjectPage openPageFromWikiTab(String pageName) {
-        $$(".internal").findBy(text(pageName)).click();
+        $$("#wiki-pages-box .details-reset").findBy(text(pageName)).click();
 
         return this;
     }

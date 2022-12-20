@@ -23,8 +23,9 @@ public class SelenideProjectRepoTests extends TestBase{
         SelenideLogger.addListener("allure", new AllureSelenide());
         selenideProjectPage.openPage(selenideUrlProject)
                 .openWikiTab()
+                .clickOnShowMorePageButton()
                 .shouldBeSoftAssertionsPageInWikiTab()
-                .openPageFromWikiTab("Soft assertions")
+                .openPageFromWikiTab("SoftAssertions")
                 .shouldBeExampleOfCode("JUnit5");
 
     }
